@@ -9,10 +9,11 @@ const Header = () => {
                     <a href="/">Portfolio<em>react</em></a>
                 </div>
                 <nav className="header_nav"role="navigation"aria-label="Main">
-                    {/* iterate nav links */}
+                    {/* iterate nav objects from headerNav */}
                     <ul>
                         {headerNav.map((nav,key) => (
                             <li key={key}>
+                                {/* display the title along with its url*/}
                                 <a href={nav.url}>{nav.title}</a>
                             </li>
                         ))}

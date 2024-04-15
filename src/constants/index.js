@@ -23,6 +23,11 @@ export const headerNav = [
     }
 ];
 
+export const introText = {
+    title:"Portfolio",
+    desc:["Owen Lee", "Portfolio", "Website"],
+};
+
 //set header toggle menu
 const Header = () => {
     const[show, setShow] = useState(false);
