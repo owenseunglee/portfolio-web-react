@@ -28,6 +28,40 @@ export const introText = {
     desc:["Owen Lee", "Portfolio", "Website"],
 };
 
+export const siteText = [
+    {
+        text:["CatDog", "Pet", "Pharmacy"],
+        title:"Pharmaceutical Database",
+        code:"https://github.com/owenseunglee/CatDog-Pet-Pharmacy-Database.git",
+        info: [
+            "A Real World Web Database",
+            "production period: One Month",
+            "Used Tech: HTML, CSS, Javascript, Python Flask, MySQL"
+        ],
+    },
+    {
+        text:["Chess Game"],
+        title:"A Simple Chess Game",
+        code:"https://github.com/owenseunglee/ChessGame.git",
+        info: [
+            "A Chess Game using CLI",
+            "production period: One Week",
+            "Used Tech: C++"
+        ],
+    },
+    {
+        text:["Library Simulator"], 
+        title:"Library Simulator",
+        code:"https://github.com/owenseunglee/LibrarySimulator.git",
+        info: [
+            "A Library Simulator Using CLI That Records checking out,",
+            "requesting books, and returning books, paying/calculating fees",
+            "production period: One Week",
+            "Used Tech: Python"
+        ],
+    },
+];
+
 //set header toggle menu
 const Header = () => {
     const[show, setShow] = useState(false);
