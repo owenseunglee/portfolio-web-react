@@ -62,6 +62,20 @@ export const siteText = [
     },
 ];
 
+export const contactText= [
+    {
+        link: "https://github.com/owenseunglee",
+        title: "GITHUB: owenseunglee",
+    },
+    {
+        link: "mailto:owenseunglee@gmail.com",
+        title: "EMAIL: owenseunglee@gmail.com",
+    },
+    {
+        link: "www.linkedin.com/in/owenseungkyulee",
+        title: "LINKEDIN: linkedin.com/in/owenseungkyulee",
+    }
+]
 //set header toggle menu
 const Header = () => {
     const[show, setShow] = useState(false);
