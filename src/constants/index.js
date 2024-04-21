@@ -54,8 +54,7 @@ export const siteText = [
         title:"Library Simulator",
         code:"https://github.com/owenseunglee/LibrarySimulator.git",
         info: [
-            "A Library Simulator Using CLI That Records checking out,",
-            "requesting books, and returning books, paying/calculating fees",
+            "A Library Simulator Using CLI That Records checking out, requesting books, and returning books, paying/calculating fees",
             "production period: One Week",
             "Used Tech: Python"
         ],
@@ -64,16 +63,21 @@ export const siteText = [
 
 export const contactText= [
     {
-        link: "https://github.com/owenseunglee",
-        title: "GITHUB: owenseunglee",
-    },
-    {
         link: "mailto:owenseunglee@gmail.com",
         title: "EMAIL: owenseunglee@gmail.com",
+    }
+]
+
+export const footerText = [
+    {
+        title: "github",
+        desc: "You can view detailed codes on my github.",
+        link: "https://github.com/owenseunglee",
     },
     {
+        title: "linkedin",
+        desc: "LinkedIn profile.",
         link: "www.linkedin.com/in/owenseungkyulee",
-        title: "LINKEDIN: linkedin.com/in/owenseungkyulee",
     }
 ]
 //set header toggle menu
