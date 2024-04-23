@@ -2,10 +2,8 @@ import React from 'react';
 
 const Port = () => {
     return (
-        <div>
-            <h1>Port</h1>
-        </div>
-    );
+        <div className="port_inner"></div>
+    )
 };
 
 export default Port;
