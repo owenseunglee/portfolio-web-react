@@ -6,16 +6,8 @@ export const headerNav = [
         url: '#intro'
     },
     {
-        title: 'Skill',
-        url: '#skill'
-    },
-    {
-        title: 'Site',
+        title: 'Project',
         url: '#site'
-    },
-    {
-        title: 'Portfolio',
-        url: '#port'
     },
     {
         title: 'Contact',
