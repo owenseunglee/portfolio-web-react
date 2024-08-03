@@ -20,4 +20,4 @@ Runs the app in the development mode.\
 
 ### Deployment
 
-This portfolio website will be deployed via Netlify
+This portfolio website is deployed via Netlify
