@@ -19,7 +19,7 @@ const Intro = () => {
                 </div>
                 <div className="intro_text">
                     <div className="text">
-                        <div>Owen Lee</div>
+                        <div>Owen Park</div>
                         <div>Portfolio</div>
                         <div>Website</div>
                     </div>
